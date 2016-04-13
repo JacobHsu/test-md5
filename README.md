@@ -1,6 +1,6 @@
 # test-md5
 [![Build Status](https://travis-ci.org/JacobHsu/test-md5.svg?branch=master)](https://travis-ci.org/JacobHsu/test-md5)
-[![Coverage Status](https://coveralls.io/repos/JacobHsu/test-md5/badge.svg?branch=master)](https://coveralls.io/r/JacobHsu/test-md5?branch=master)  
+[![Coverage Status](https://coveralls.io/repos/github/JacobHsu/test-md5/badge.svg?branch=master)](https://coveralls.io/github/JacobHsu/test-md5?branch=master)
 
 # NPMs
 [![NPM](https://nodei.co/npm/js-md5.png?stars&downloads)](https://nodei.co/npm/js-md5/)  
