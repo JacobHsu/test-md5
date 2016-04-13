@@ -4,7 +4,8 @@
   "description": "[![Build Status](https://travis-ci.org/JacobHsu/js-md5.svg?branch=master)](https://travis-ci.org/JacobHsu/js-md5)\r [![Coverage Status](https://coveralls.io/repos/emn178/JacobHsu-md5/badge.svg?branch=master)](https://coveralls.io/r/JacobHsu/js-md5?branch=master)",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests/node-test.js"
+    "test": "mocha tests/node-test.js",
+    "coveralls": "mocha tests/node-test.js -R mocha-lcov-reporter -r jscoverage | coveralls"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "dependencies": {
     "expect.js": "^0.3.1",
     "js-md5": "^0.4.1",
+    "jscoverage": "^0.6.0",
     "mocha": "^2.4.5"
   }
 }
